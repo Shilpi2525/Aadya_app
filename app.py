@@ -92,7 +92,7 @@ if image:
 
   #get the features
   with st.spinner("Processing......."):
-   rating_image_features = featurization(IMAGE_NAME, rating_featurized_model)
+    rating_image_features = featurization(IMAGE_NAME, rating_featurized_model)
 
     #getting prediction from rating model
     rating_model_predict = Rating_model.predict(rating_image_features)
