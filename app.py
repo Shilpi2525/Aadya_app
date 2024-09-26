@@ -62,7 +62,7 @@ Rating_model = load_sklearn_models("best-rating-model")
 #Building the website
 
 #title of the web page
-st.title("Celebrity Portrait Rating Webapp")
+st.title("Pencil Sketch Rating Webapp")
 
 #setting the main picture
 #st.image( "https://mediniz-images-2018-100.s3.ap-south-1.amazonaws.com/post-images/chokhm_1663869443.png",caption = "ABC")
